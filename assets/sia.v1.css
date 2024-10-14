@@ -1,0 +1,1120 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font: normal 100% Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  vertical-align: baseline;
+  background: #fff;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.lblOtpClass{
+  padding: 0 0;
+  text-align: justify;
+  line-height: 1.125em;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 0 0 0 10%;
+}
+
+.helpClass{
+	width: 78%;
+    margin: 0px 11%;
+    max-height: 1.2em;
+    argin-bottom: 5%
+}
+
+.aboutClass{
+	width: 78%;
+    margin: 0px 11%;
+    max-height: 1.2em;
+}
+
+input[type=button] {
+	text-transform: uppercase;
+}
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+
+input[type=text]:hover {
+}
+
+.btn-primary {
+    border-color: #ffffff;
+}
+
+.pwdClassText{
+	/*text-transform: uppercase;*/
+	text-align: center;
+}
+
+#divWarningSessionTimeout{
+	text-align: center;
+}
+
+#submitButton {
+}
+
+#resend{
+  background-color: grey;
+  border-color: grey;
+  margin: 2% 10% 0.4em 10%;
+  width: 80%;
+  font-size: 1em;
+}
+
+#selectDeviceListDIV{
+	margin: 0 auto;
+}
+#selectedDeviceValue{
+	margin: 0 auto;
+}
+
+#device{
+	margin: 0 auto;
+}
+
+#devicesList {
+	text-align: justify;
+	margin: 2% 0 2% 28%;
+}
+
+#devicesList label {
+    padding-left: 1em;
+}
+
+#nextOObButton {
+  width: 80%;
+  background-color: #ac0633;
+  border-color: #ac0633;
+  margin: 2% 10% 1em 10%;
+}
+
+#goBackOObButton {
+  width: 80%;
+  background-color: #ac0633;
+  border-color: #ac0633;
+  margin: 2% 10% 1em 10%;
+}
+
+#nextErrOObButton{
+  width: 80%;
+  background-color: #ac0633;
+  border-color: #ac0633;
+  margin: 2% 10% 1em 10%;
+}
+
+#shoppingButton {
+  width: 80%;
+  background-color: #ac0633;
+  border-color: #ac0633;
+  margin: 0 10% 1em 10%;
+}
+
+#confirm {
+  width: 80%;
+  background-color: #ac0633;
+  border-color: #ac0633;
+  margin: 0 10% 0.3em 10%;
+  font-size: 1em;
+}
+
+#exit {
+  width: 80%;
+  background-color: #ac0633;
+  border-color: #ac0633;
+  margin: 0 10% 0.3em 10%;
+  font-size: 1em;
+}
+
+#cancelBtn {
+  width: 25%;
+  color: black;
+  border: none;
+  cursor: pointer;
+  float: right;
+  background: none;
+  border-radius: 3% 3% 0 0;
+  font-size: 1em;
+}
+
+#cancelBtn.btn.bordered {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  border-color: #000000;
+}
+
+/* Style the container */
+.container {
+  width: 100%;
+  max-width: 40em;
+  margin: 0 auto;
+  border: 0.0625em solid black;
+  border-radius: 2%;
+  max-height: 40em;
+  min-height: 100vh;
+}
+
+.issuerImageLoader {
+  background-image: url("../acsimages/12928_sia_logo.png");
+  width: 25%;
+  height: 3.5em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 2% 37.5% 25% 37.5%;
+}
+
+/*******************************/
+
+.cardHolderLoader_mastercard {
+  background-image: url(../acsimages/mc_idcheck_hrz_pos.png);
+  width: 25%;
+  height: 3.5em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 2% auto 25% auto;
+}
+
+.cardHolderLoader_maestro {
+  background-image: url(../acsimages/maestro.svg);
+  width: 25%;
+  height: 6em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 2% auto 25% auto;
+}
+
+.cardHolderLoader_visa {
+  background-image: url(../acsimages/visa-secure.png);
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 3.5em;
+  background-size: contain;
+  margin: 2% 37.5% 25% 35.9%;
+}
+
+/*************************************/
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 0.375em;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 50%;
+	margin: 10% 0 0 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#secCheckout {
+  width: 85%;
+  margin: 0 0 1em 10%;
+  height: 3.125em;
+  background: #004B7F;
+  border-radius: 3% 3% 0 0;
+}
+
+#secCancelButton {
+  width: 85%;
+  margin: 0 0 0.5em 10%;
+  height: 1.5625em;
+  background: white;
+  border-radius: 3% 3% 0 0;
+}
+
+#secFooter {
+  width: 85%;
+  margin: 0 auto 5px auto;
+}
+
+#divBrandingZone {
+  margin-bottom: 3%;
+  width: 100%;
+  height: 3.125em;
+}
+
+.issuerImage {
+  background-image: url("../acsimages/12928_sia_logo.png");
+  width: 40%;
+  height: 3em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  margin-left: 10%;
+}
+
+.cardInfoImage_mastercard {
+  float: right;
+  width: 25%;
+  height: 3.5em;
+  background-image: url(../acsimages/mc_idcheck_hrz_pos.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10%;
+}
+
+.cardInfoImage_maestro {
+  float: right;
+  width: 24%;
+  height: 3.9em;
+  background-image: url(../acsimages/maestro.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cardInfoImage_visa {
+  float: right;
+  width: 25%;
+  height: 3.5em;
+  background-image: url(../acsimages/visa-secure.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10%;
+}
+
+/***********inizio secure payment *****************/
+
+
+#divInfoText, #divInfoTextError, #divInfoTextSuccess {
+  margin: 0 10% 2% 10%;
+  width: 80%;
+  text-align: justify;
+  min-height: 1.5em;
+  overflow: visible;
+}
+
+#divInfoTextWarning span {
+	margin: auto 0;
+}
+
+.divInfoSuccessfully {
+  margin: 1% 2% 5% 12%;
+  width: 80%;
+  text-align: justify;
+}
+
+#divDataEntry {
+  margin: 0em 0em 0.8em 0em;
+  width: 100%;
+}
+
+#divMerchantWhitelist {
+  display: flex;
+  width: 80%;
+  margin: 0 10% 2% 10%;
+}
+
+#whitelistingDataEntry {
+  margin-right: 2%;
+}
+
+#whitelistLabel {
+  margin-bottom: 2%;
+}
+
+/***********fine secure payment *****************/
+
+
+/********** OOB Help *******************/
+
+.aboutCollapsButton {
+  width: 80%;
+  color: black;
+  border: none;
+  cursor: pointer;
+  background: none;
+  text-align: left;
+  outline: none;
+  margin: 2em 10% 0 10%;
+}
+
+.active,
+ .aboutCollapsButton:hover {
+}
+
+.aboutCollapsButton:after {
+  content: '\2193';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 0.3125em;
+}
+
+.active:after {
+   content: '\2191';
+}
+
+.aboutContent {
+  padding: 0 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+.helpContent {
+  padding: 0 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+/***********End OOB About ******************/
+
+
+/********** Help Section *******************/
+
+.helpCollapsButton {
+  width: 80%;
+  color: black;
+  border: none;
+  cursor: pointer;
+  background: none;
+  text-align: left;
+  outline: none;
+  margin: 0 10% 0 10%;
+}
+
+.active,
+ .helpCollapsButton:hover {
+}
+
+.helpCollapsButton:after {
+  content: '\2193';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 0.3125em;
+}
+
+.active:after {
+  content: '\2191';
+}
+
+.content {
+  padding: 0 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  margin-bottom: 5%;
+}
+
+/***********End Help ******************/
+
+
+/********************per authentication****************/
+
+#divWarningSessionTimeout2{
+	text-align: center;
+	margin-left: 1%;
+}
+
+.warningSessionExpired {
+    margin-left: 32%;
+    text-align: justify;
+}
+
+.warning {
+  margin: 2% 10%;
+  text-align: justify;
+  display: inline-flex;
+  width:80%
+}
+
+.info {
+  margin: 2% 10%;
+  text-align: justify;
+}
+
+
+#divPurchaseAuthenticationTitle {
+	font-weight: bold;
+	text-align: center;
+    margin: 1% auto;
+}
+/******* FINE SECURE PAYMENT */
+
+/* Spinner */
+
+.center {
+  margin: 25% 45% 0 45%;
+  width: 100%;
+}
+
+.makeInCenter{
+	margin: 15% 25% 15% 32%;
+    width: 100%;
+}
+.centerSessionTimeOut {
+  margin: 25% 45% 0 45%;
+  height: 0px;
+}
+
+#loading {
+  display: inline-block;
+  width: 3.125em;
+  height: 3.125em;
+  border: 0.1875em solid lightgrey;
+  border-radius: 50%;
+  border-top-color: #fff;
+  -moz-animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#sessionExp {
+  display: inline-block;
+  width: 3.125em;
+  height: 3.125em;
+  border-radius: 50%;
+}
+
+
+.glyphRedClass {
+    position: relative;
+    border-radius: 50%;
+    color: white;
+    z-index:2;
+    text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+    font-size: x-large;
+    float: left;
+    margin-right: 2%;
+}
+
+.innerGlyph {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 50%;
+    background-color: red;
+    z-index: -1;
+}
+
+.warningLogo {
+    min-width: 1.75em;
+    height: 1.75em;
+    margin: 0 1% 0 0;
+}
+
+/* -------------------- RESPONSIVE -------------------- */
+
+@media all and (min-width: 501px) and (max-width: 600px) {
+
+  #main:before {
+    content: 'mQuery: max-width: 600px';
+  }
+
+	html,
+	body {
+	  font-size: 13px;
+	}
+
+  .container {
+	  width: 100%;
+	  max-width: 100%;
+	  margin: 0 auto;
+	  border: 0.0625em solid black;
+	  border-radius: 2%;
+	  height: 100%;
+	}
+
+
+	.divInfoTextWarning {
+	    height: 3.0em;
+	}
+
+	#divDataEntry {
+	    margin: 0em 0em 2% 0em;
+	    width: 100%;
+	}
+
+	.divInfoTextWarning {
+	    margin: 0 10% 0.50em 10%;
+	    width: 80%;
+	    height: 1.5em;
+	}
+
+	.divInfoText {
+	    margin: 0.25em 10% 0.25em 10%;
+	    width: 80%;
+	    text-align: justify;
+	}
+
+	.lblOtpClass {
+    	font-size: 0.9em;
+    }
+
+	.issuerImage {
+	    width: 40%;
+	    height: 3em;
+	}
+
+   .cardInfoImage_mastercard {
+	  width: 24%;
+	  height: 3.5em;
+	}
+
+   .cardInfoImage_maestro {
+	  width: 24%;
+	  height: 3.9em;
+	}
+
+	#divPurchaseAuthenticationTitle {
+		margin: 1% auto;
+	}
+
+	#confirm {
+	    margin: 0 10% 0.3em 10%;
+	}
+
+	#exit {
+	    margin: 0 10% 0.3em 10%;
+	}
+
+	#resend {
+	    margin: 1% 10% 0.4em 10%;
+	}
+
+
+}
+
+@media all and (min-width: 500px) and (max-width: 500px) {
+
+  #main:before {
+    content: 'mQuery: max-width: 500px';
+  }
+
+	html,
+	body {
+	  font-size: 14px;
+	}
+
+  .container {
+	  width: 100%;
+	  margin: 0 auto;
+	  border: 0.0625em solid black;
+	  border-radius: 2%;
+	  height: 100%;
+	}
+
+	.divInfoTextWarning {
+	    height: 3.0em;
+	}
+
+	/*
+	input[type=text], select, textarea{
+	    width: 80%;
+	    padding: 0.60em 1.25%;
+	    border: 0.0625em solid #ccc;
+	    border-radius: 3%;
+	    box-sizing: border-box;
+	    resize: vertical;
+	    margin: 0 10% 2em 10%;
+	}*/
+
+	#divDataEntry {
+	    margin: 0em 0em 5% 0em;
+	    width: 100%;
+	}
+
+	.divInfoTextWarning {
+	    margin: 0 10% 0.50em 10%;
+	    width: 80%;
+	    height: 1.5em;
+	}
+
+	.divInfoText {
+	    margin: 0.25em 10% 0.25em 10%;
+	    width: 80%;
+	    text-align: justify;
+	}
+
+	.lblOtpClass {
+    	font-size: 0.9em;
+    }
+
+	.issuerImage {
+	    width: 40%;
+	    height: 3em;
+	}
+
+   .cardInfoImage_mastercard {
+	  width: 28%;
+	  height: 3.5em;
+	}
+
+   .cardInfoImage_maestro {
+	  width: 28%;
+	  height: 3.5em;
+	}
+
+	/*.center {
+	  margin: 30% 37.5% 0 37.5%;
+	}*/
+
+	.centerSessionTimeOut{
+		margin: 30% 37.5% 0 37.5%;
+		height:600px;
+	}
+
+	.cardHolderLoader_mastercard {
+	    width: 30%;
+	    height: 3.5em;
+	    margin: 2% auto 45% auto;
+	}
+
+	.cardHolderLoader_maestro {
+	    width: 30%;
+	    height: 3.5em;
+	    margin: 2% auto 45% auto;
+	}
+}
+
+@media all and (min-width: 391px) and (max-width: 499px) {
+
+  #main:before {
+    content: 'mQuery: max-width: 500px';
+  }
+
+	html,
+	body {
+	  font-size: 12px;
+	}
+
+  	.container {
+	  width: 100%;
+	  margin: 0 auto;
+	  border: 0.0625em solid black;
+	  border-radius: 2%;
+	  height: 100%;
+	}
+
+	#cancelBtn {
+		width: 30%;
+	}
+
+	#submitButton {
+    padding: 0.55em 1.25%;
+    width: 84%;
+    margin: 0 8% 0.75em 8%;
+	}
+
+	#nextOObButton {
+    padding: 0.55em 1.25%;
+    width: 84%;
+    margin: 0 8% 0.75em 8%;
+	}
+
+	#shoppingButton {
+    padding: 0.55em 1.25%;
+    width: 84%;
+    margin: 0 8% 0.75em 8%;
+    font-size: 0.625em;
+	}
+
+	#divDataEntry {
+	    margin: 0em 0em 5% 0em;
+	    width: 100%;
+	}
+
+	.issuerImage {
+	    width: 40%;
+	    height: 2em;
+	}
+	.cardInfoImage_mastercard {
+	    height: 3em;
+	    width: 25%;
+	}
+	.cardInfoImage_maestro {
+	    height: 3.5em;
+	    width: 25%;
+	}
+	.cardInfoImage_visa {
+	  height: 2.5em;
+	}
+	/*
+	#divBrandingZone {
+	  height: 2.3em;
+	}
+	*/
+	.divInfoTextWarning {
+	    margin: 0 10% 0.50em 10%;
+	    width: 80%;
+	    height: 1.5em;
+	}
+
+	.divInfoText {
+	    margin: 0.25em 10% 0.25em 10%;
+	    width: 80%;
+	    text-align: justify;
+	}
+
+	.issuerImageLoader {
+	  width: 45%;
+	  margin: 2% 27.5% 25% 27.5%;
+	}
+
+	.center {
+	  margin: 25% 45% 0 45%;
+	}
+
+	.cardHolderLoader_mastercard {
+	    width: 30%;
+	    height: 3.5em;
+	    margin: 2% auto 45% auto;
+	}
+
+	.cardHolderLoader_maestro {
+	    width: 30%;
+	    height: 3.5em;
+	    margin: 2% auto 45% auto;
+	}
+
+	.collapsible {
+	    margin: 0.1em 10% 0 10%;
+	    padding: 0.4em 4.25%;
+	    font-size: 0.625em;
+	}
+
+}
+
+@media all and (min-width: 251px) and (max-width: 390px) {
+
+  #main:before {
+    content: 'mQuery: max-width: 390px';
+  }
+
+	html,
+	body {
+	  font-size: 12px;
+	}
+
+  	.container {
+	  width: 100%;
+	  margin: 0 auto;
+	  border: 0.0625em solid black;
+	  border-radius: 2%;
+	  height: 100%;
+	}
+
+	#cancelBtn {
+		width: 30%;
+	}
+
+	#submitButton {
+    padding: 0.55em 1.25%;
+    width: 84%;
+    margin: 0 8% 0.75em 8%;
+	}
+
+	#nextOObButton {
+    padding: 0.55em 1.25%;
+    width: 84%;
+    margin: 0 8% 0.75em 8%;
+	}
+
+	#shoppingButton {
+    padding: 0.55em 1.25%;
+    width: 84%;
+    margin: 0 8% 0.75em 8%;
+	}
+
+	#divDataEntry {
+	    margin: 0em 0em 5% 0em;
+	    width: 100%;
+	}
+
+	.issuerImage {
+	width: 40%;
+    height: 3em;
+	}
+	.cardInfoImage_mastercard {
+    height: 3.5em;
+    width: 18%;
+	}
+	.cardInfoImage_maestro {
+		height: 3em;
+	    width: 25%;
+	}
+	.cardInfoImage_visa {
+	  height: 2em;
+	}
+	#divBrandingZone {
+	  height: 2.3em;
+	}
+	/*
+	input[type=text], select, textarea {
+	    padding: 0.60em 1.25%;
+	    border: 0.0625em solid #ccc;
+	    border-radius: 3%;
+	    box-sizing: border-box;
+	    resize: vertical;
+	}
+	*/
+	
+	#divPurchaseAuthenticationTitle {
+		padding-left: 30%;
+	    padding-top: 1%;
+	    padding-bottom: 1%;
+	}
+	
+	.divInfoTextWarning {
+	    margin: 0 10% 0.50em 10%;
+	    width: 80%;
+	    height: 1.5em;
+	}
+
+	.divInfoText {
+	    margin: 0.25em 10% 0.25em 10%;
+	    width: 80%;
+	    text-align: justify;
+	}
+
+	.issuerImageLoader {
+	  width: 45%;
+	  margin: 2% 27.5% 25% 27.5%;
+	}
+
+	.cardHolderLoader_mastercard {
+	    width: 30%;
+	    height: 3.5em;
+	    margin: 2% auto 45% auto;
+	}
+
+	.cardHolderLoader_maestro {
+	    width: 30%;
+	    height: 3.5em;
+	    margin: 2% auto 45% auto;
+	}
+
+	.collapsible {
+	    margin: 0.1em 10% 0 10%;
+	    padding: 0.4em 4.25%;
+	    font-size: 0.625em;
+	}
+
+	.lblOtpClass {
+    	font-size: 0.9em;
+    }
+
+     .pwdClassText{
+		font-size: 0.9em;
+	}
+
+	.helpCollapsButton {
+	  margin: 1em 10% 0 10%;
+	}
+
+
+}
+
+@media all and (max-width: 250px) {
+
+  #main:before {
+    content: 'mQuery: max-width: 250px';
+  }
+
+	html,
+	body {
+	  font-size: 11.7px;
+	}
+
+	.container {
+	  width: 100%;
+	  min-width: 250px;
+	  margin: 0 auto;
+	  border: 0.0625em solid black;
+	  border-radius: 2%;
+	  height: 100%;
+	}
+
+	#cancelBtn {
+		width: 30%;
+	}
+	
+	#divPurchaseAuthenticationTitle {
+	width: 100%;
+	display: inline-block;
+	}
+
+	#nextOObButton {
+    width: 84%;
+    margin: 0 8% 0.75em 8%;
+	}
+	
+	#confirm {
+	font-size: 0.9em;
+	}
+
+	#shoppingButton {
+    padding: 0.55em 1.25%;
+    width: 84%;
+    margin: 0 8% 0.75em 8%;
+	}
+
+	#divDataEntry {
+	    margin: 0em 0em 5% 0em;
+	    width: 100%;
+	}
+
+	.issuerImage {
+		width: 40%;
+	    height: 2.4em;
+	}
+	.cardInfoImage_mastercard {
+		height: 2.7em;
+	    width: 40%;
+	}
+	.cardInfoImage_maestro {
+		height: 2.7em;
+   		width: 25%;
+	}
+	.cardInfoImage_visa {
+	  height: 2em;
+	}
+	#divBrandingZone {
+	  height: 2.3em;
+	}
+
+	/*
+	input[type=text], select, textarea {
+	    padding: 0.60em 1.25%;
+	    border: 0.0625em solid #ccc;
+	    border-radius: 3%;
+	    box-sizing: border-box;
+	    resize: vertical;
+	    font-size: 0.6em;
+	}*/
+
+	.divInfoTextWarning {
+	   margin: 0 10% 0.80em 10%;
+	    width: 80%;
+	    font-size: 0.9em;
+	}
+
+	.helpCollapsButton {
+	  width: 80%;
+	  color: black;
+	  border: none;
+	  cursor: pointer;
+	  background: none;
+	  text-align: left;
+	  outline: none;
+	  margin: 1em 10% 0 10%;
+	}
+
+	.divInfoText {
+	    margin: 0.25em 10% 0.25em 10%;
+	    width: 80%;
+	    text-align: justify;
+	}
+	
+	#divInfoText, #divInfoTextError, #divInfoTextSuccess {
+	  text-align: unset;
+	}
+
+	.issuerImageLoader {
+	  width: 45%;
+	  margin: 2% 27.5% 25% 27.5%;
+	}
+
+	.center {
+	  margin: 25% 40% 0 42%;
+	}
+
+	/*.collapsible {
+	    margin: 0.1em 10% 0 10%;
+	    padding: 0.4em 4.25%;
+	    font-size: 0.625em;
+	}*/
+
+	.lblOtpClass {
+		font-size: 0.9em;
+    }
+
+    .pwdClassText{
+		font-size: 0.9em;
+	}
+
+	.cardInfoImage_visa {
+	    width: 30%;
+	}
+	
+	#devicesList {
+	text-align: justify;
+	margin: 2% 0 2% 15%;
+	}
+
+	.helpCollapsButton {
+	  margin: 1em 10% 0 10%;
+	}
+
+	.cardHolderLoader_mastercard {
+	    width: 50%;
+	    height: 3.5em;
+	    margin: 2% auto 75% auto;
+	}
+
+	.cardHolderLoader_maestro {
+	    width: 50%;
+	    height: 3.5em;
+	    margin: 2% auto 75% auto;
+	}
+}
+
+/**********************************************/
+
+.glyphiconDivClass{
+	color: red;
+    margin: 0 0 0 15%;
+    width: 80%;
+}
+
+.glyphiconGenericClass{
+	color: red;
+}
